@@ -1,2 +1,2 @@
-public class Elephant extends Enemy {
-}
+//public class Elephant extends Enemy {
+//}

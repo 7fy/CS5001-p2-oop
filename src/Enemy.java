@@ -5,6 +5,10 @@ public class Enemy  {
      * */
     int eposition = 0;
     int enemyHp = 0;
+    public Enemy(int enemyHp, int eposition) {
+        this.enemyHp = enemyHp;
+        this.eposition = eposition;
+    }
     int getHealth () {
         return enemyHp;
     }
@@ -12,7 +16,6 @@ public class Enemy  {
         return eposition;
     }
     void hit (Tower t) {
-
     }
     void advance () {
     }

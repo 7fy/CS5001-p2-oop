@@ -1,2 +1,2 @@
-public class Rat extends Enemy {
-}
+//public class Rat extends Enemy {
+//}
