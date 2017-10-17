@@ -5,14 +5,14 @@ public class Tower {
     void setDamage () {
         damage = 1;
     }
-    void setTposition () {
+    void setTposition() {
         tposition = 100;
     }
-    void getDamage () {
+    void getDamage() {
     }
-    void  getPosition () {
+    void  getPosition() {
     }
-    boolean willFire () {
+    boolean willFire() {
         return true;
     }
 }

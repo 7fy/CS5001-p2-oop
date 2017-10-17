@@ -23,21 +23,21 @@ public class Game {
             e.printStackTrace();
         }
     }
-    public Game (int corridorLength) {
+    public Game(int corridorLength) {
         System.out.println ("Ready? Go!");
         for (int i = 0; i < corridorLength; i++) {
             System.out.print("*");
         }
         System.out.println ("");
     }
-    public void advance () {
+    public void advance() {
         int round = 1;
         for (;;) {
             System.out.println ("Round: " + round);
             Enemy e1 = new Enemy(10,10);
-            
+
        }
     }
-    public void attackEnemy () {
+    public void attackEnemy() {
     }
 }

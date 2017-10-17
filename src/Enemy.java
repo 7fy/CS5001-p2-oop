@@ -5,18 +5,18 @@ public class Enemy  {
      * */
     int eposition = 0;
     int enemyHp = 0;
-    public Enemy(int enemyHp, int eposition) {
+    public Enemy (int enemyHp, int eposition) {
         this.enemyHp = enemyHp;
         this.eposition = eposition;
     }
-    int getHealth () {
+    int getHealth() {
         return enemyHp;
     }
-    int getPosition () {
+    int getPosition() {
         return eposition;
     }
-    void hit (Tower t) {
+    void hit(Tower t) {
     }
-    void advance () {
+    void advance() {
     }
 }
