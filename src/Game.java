@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class Game {
+    ArrayList<Enemy> enemies;
+    ArrayList<Tower> towers;
     public static void main (String[] args) {
         try {
             int corridorLength = Integer.parseInt(args[1]);
@@ -30,11 +32,9 @@ public class Game {
         }
     }
     public void createEnemy () {
-        ArrayList<Enemy> enemies;
         enemies.add( new Rat());
     }
     public void createTower () {
-        ArrayList<Tower> towers;
         towers.add( new Slingshot());
     }
     public void attackEnemies () {
