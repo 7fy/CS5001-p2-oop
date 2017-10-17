@@ -7,5 +7,6 @@ public class Tower {
 
     }
     boolean willFire () {
+        return true;
     }
 }

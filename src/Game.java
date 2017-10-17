@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import static java.lang.System.exit;
 
 public class Game {
     ArrayList<Enemy> enemies;
@@ -11,34 +12,20 @@ public class Game {
                 exit(0);
             } else {
                 Game game = new Game (corridorLength);
-                game.createEnemy();
-                game.createTower();
                 game.advance();
                 System.out.println ("Ready? Go!");
             }
-        } catch {
+        } catch (Exception e) {
             System.out.println ("Usage: java Game <CorridorLength>");
         }
     }
     public Game (int corridorLength) {
-        this.corridorLength = corridorLength;
+        int timestrap = 0;
     }
     public void advance () {
         int round = 1;
         for (;;){
             System.out.println ("Round: " + round);
-            attackEnemies();
-            advanceEnemies();
         }
-    }
-    public void createEnemy () {
-        enemies.add( new Rat());
-    }
-    public void createTower () {
-        towers.add( new Slingshot());
-    }
-    public void attackEnemies () {
-    }
-    public void advanceEnemies () {
     }
 }
