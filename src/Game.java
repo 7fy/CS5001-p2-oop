@@ -4,13 +4,12 @@ import static java.lang.System.exit;
 public class Game {
     /***
      * @param Enemy is an ArrayList
-     *              @param Tower is an ArrayList
-     *                           @param EnemyMax is the maximum of enemies. If it decreases to 0, the player wins
-     *                                           @param TowerMax is the maximum of towers. If it decreases to 0, the player loses
-     *                                                           @param EnemyNum is the number of existing enemies
-     *                                                                           @param TowerNum is the number of existing towers
+     * @param Tower is an ArrayList
+     * @param EnemyMax is the maximum of enemies. If it decreases to 0, the player wins
+     * @param TowerMax is the maximum of towers. If it decreases to 0, the player loses
+     * @param EnemyNum is the number of existing enemies
+     * @param TowerNum is the number of existing towers
      */
-    /
     ArrayList<Enemy> enemies;
     ArrayList<Tower> towers;
     int EnemyMax = 10;
